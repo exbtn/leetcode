@@ -16,3 +16,20 @@ final class TreeNode {
         self.right = right
     }
 }
+
+func writeTree(_ values: [Int?]) -> TreeNode? {
+    guard !values.isEmpty else { return nil }
+    
+    func insert(i: Int) -> TreeNode? {
+        var root: TreeNode?
+        if i < values.count {
+            guard let value = values[i] else { return nil }
+            root = TreeNode(value)
+            root?.left = insert(i: 2 * i + 1)
+            root?.right = insert(i: 2 * i + 2)
+        }
+        return root
+    }
+    
+    return insert(i: 0)
+}
