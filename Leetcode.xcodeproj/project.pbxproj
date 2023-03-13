@@ -26,6 +26,7 @@
 		62377DD729BB68380015E794 /* 382.Linked.List.Random.Node.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62377DD629BB68380015E794 /* 382.Linked.List.Random.Node.Tests.swift */; };
 		62377DD929BCF35A0015E794 /* 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62377DD829BCF35A0015E794 /* 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift */; };
 		627A73C629BD2F1F00202D2C /* 20.Valid.Parentheses.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A73C529BD2F1F00202D2C /* 20.Valid.Parentheses.Tests.swift */; };
+		627A73C829BE346000202D2C /* 23.Merge.K.Sorted.Lists.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627A73C729BE346000202D2C /* 23.Merge.K.Sorted.Lists.Tests.swift */; };
 		62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */; };
 		62F2FFA129B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		62377DD629BB68380015E794 /* 382.Linked.List.Random.Node.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 382.Linked.List.Random.Node.Tests.swift; sourceTree = "<group>"; };
 		62377DD829BCF35A0015E794 /* 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift; sourceTree = "<group>"; };
 		627A73C529BD2F1F00202D2C /* 20.Valid.Parentheses.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20.Valid.Parentheses.Tests.swift; sourceTree = "<group>"; };
+		627A73C729BE346000202D2C /* 23.Merge.K.Sorted.Lists.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23.Merge.K.Sorted.Lists.Tests.swift; sourceTree = "<group>"; };
 		62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2187.Minimum.Time.To.Complete.Trips.Tests.swift; sourceTree = "<group>"; };
 		62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 875.Koko.Eating.Bananas.Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				62377DD629BB68380015E794 /* 382.Linked.List.Random.Node.Tests.swift */,
 				62377DD829BCF35A0015E794 /* 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift */,
 				627A73C529BD2F1F00202D2C /* 20.Valid.Parentheses.Tests.swift */,
+				627A73C729BE346000202D2C /* 23.Merge.K.Sorted.Lists.Tests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				6209F74C29AF936800E5CCD5 /* 9.Palindrome.Number.Tests.swift in Sources */,
 				6209F74E29AF944500E5CCD5 /* 13.Roman.To.Integer.Tests.swift in Sources */,
 				62377DD929BCF35A0015E794 /* 109.Convert.Sorted.List.To.Binary.Search.Tree.Tests.swift in Sources */,
+				627A73C829BE346000202D2C /* 23.Merge.K.Sorted.Lists.Tests.swift in Sources */,
 				62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */,
 				6209F75229AF95D100E5CCD5 /* 35.Search.Insert.Position.Tests.swift in Sources */,
 				6209F75829AF987E00E5CCD5 /* 374.Guess.Number.Higher.Or.Lower.Tests.swift in Sources */,
