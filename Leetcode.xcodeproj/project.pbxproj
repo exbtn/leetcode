@@ -22,6 +22,7 @@
 		621AB35929B0AA1A000E0DF6 /* 912.Merge.Sort.An.Array.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AB35829B0AA1A000E0DF6 /* 912.Merge.Sort.An.Array.Tests.swift */; };
 		621AB35F29B169D3000E0DF6 /* 443.String.Compression.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */; };
 		621AE1D129B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */; };
+		62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		621AB35829B0AA1A000E0DF6 /* 912.Merge.Sort.An.Array.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 912.Merge.Sort.An.Array.Tests.swift; sourceTree = "<group>"; };
 		621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 443.String.Compression.Tests.swift; sourceTree = "<group>"; };
 		621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift; sourceTree = "<group>"; };
+		62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2187.Minimum.Time.To.Complete.Trips.Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				621AB35829B0AA1A000E0DF6 /* 912.Merge.Sort.An.Array.Tests.swift */,
 				621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */,
 				621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */,
+				62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				621AB35F29B169D3000E0DF6 /* 443.String.Compression.Tests.swift in Sources */,
 				6209F74C29AF936800E5CCD5 /* 9.Palindrome.Number.Tests.swift in Sources */,
 				6209F74E29AF944500E5CCD5 /* 13.Roman.To.Integer.Tests.swift in Sources */,
+				62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */,
 				6209F75229AF95D100E5CCD5 /* 35.Search.Insert.Position.Tests.swift in Sources */,
 				6209F75829AF987E00E5CCD5 /* 374.Guess.Number.Higher.Or.Lower.Tests.swift in Sources */,
 				6209F75629AF979C00E5CCD5 /* 278.First.Bad.Version.Tests.swift in Sources */,
