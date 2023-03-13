@@ -23,6 +23,7 @@
 		621AB35F29B169D3000E0DF6 /* 443.String.Compression.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */; };
 		621AE1D129B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */; };
 		62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */; };
+		62F2FFA129B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 443.String.Compression.Tests.swift; sourceTree = "<group>"; };
 		621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift; sourceTree = "<group>"; };
 		62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2187.Minimum.Time.To.Complete.Trips.Tests.swift; sourceTree = "<group>"; };
+		62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 875.Koko.Eating.Bananas.Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				621AB35E29B169D3000E0DF6 /* 443.String.Compression.Tests.swift */,
 				621AE1D029B265DB00BD2175 /* 28.Find.The.Index.Of.The.First.Occurrence.In.A.String.Tests.swift */,
 				62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */,
+				62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6209F73F29AF8CBD00E5CCD5 /* 1.Two.Sum.Tests.swift in Sources */,
+				62F2FFA129B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift in Sources */,
 				6209F75429AF963700E5CCD5 /* 69.SqrtX.Tests.swift in Sources */,
 				6209F75029AF94B900E5CCD5 /* 33.Search.In.Rotated.Sorted.Array.Tests.swift in Sources */,
 				6209F75A29AF994600E5CCD5 /* 704.Binary.Search.Tests.swift in Sources */,
