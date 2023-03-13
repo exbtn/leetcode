@@ -4,27 +4,6 @@
 
 import XCTest
 
-private final class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init() { self.val = 0; self.next = nil; }
-    public init(_ val: Int) { self.val = val; self.next = nil; }
-    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-}
-
-private final class TreeNode {
-    public var val: Int
-    public var left: TreeNode?
-    public var right: TreeNode?
-    public init() { self.val = 0; self.left = nil; self.right = nil; }
-    public init(_ val: Int) { self.val = val; self.left = nil; self.right = nil; }
-    public init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
-        self.val = val
-        self.left = left
-        self.right = right
-    }
-}
-
 final class ConvertSortedListToBinarySearchTreeTests: XCTestCase {
     
     fileprivate let solution = Solution()
@@ -82,24 +61,6 @@ fileprivate class Solution {
         let node = TreeNode(nums[minEdge+half])
         node.left = sortedArrayToBST(nums, minEdge, minEdge+half-1)
         node.right = sortedArrayToBST(nums, minEdge+half+1, maxEdge)
-        return node
-    }
-}
-
-private extension ConvertSortedListToBinarySearchTreeTests {
-    private func write(values: [Int]) -> ListNode? {
-        var node: ListNode?
-        var lastNode: ListNode?
-        for i in values {
-            if node == nil {
-                node = ListNode(i)
-                lastNode = node
-            } else {
-                lastNode?.next = ListNode(i)
-                lastNode = lastNode?.next
-            }
-        }
-        
         return node
     }
 }

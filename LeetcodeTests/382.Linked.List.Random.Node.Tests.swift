@@ -50,29 +50,3 @@ fileprivate class Solution {
         return result
     }
 }
-
-private final class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init() { self.val = 0; self.next = nil; }
-    public init(_ val: Int) { self.val = val; self.next = nil; }
-    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
-}
-
-private extension LinkedListRandomNodeTests {
-    private func write(values: [Int]) -> ListNode? {
-        var node: ListNode?
-        var lastNode: ListNode?
-        for i in values {
-            if node == nil {
-                node = ListNode(i)
-                lastNode = node
-            } else {
-                lastNode?.next = ListNode(i)
-                lastNode = lastNode?.next
-            }
-        }
-        
-        return node
-    }
-}
