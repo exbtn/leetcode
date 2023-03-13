@@ -11,40 +11,26 @@ final class FindTheIndexOfTheFirstOccurrenceInAStringTests: XCTestCase {
     var needle = ""
     
     func test_solution() {
-        //        haystack = "sadbutsad"
-        //        needle = "sad"
-        //        XCTAssertEqual(solution.strStr(haystack, needle), 0)
-        
-        //        haystack = "sadtisazmdasf"
-        //        needle = "tisaz"
-        //        XCTAssertEqual(solution.strStr(haystack, needle), 0)
-        
-        //        haystack = "leetcode"
-        //        needle = "leeto"
-        //        XCTAssertEqual(solution.strStr(haystack, needle), -1)
-        
-        //        haystack = "hello"
-        //        needle = "ll"
-        //        XCTAssertEqual(solution.strStr(haystack, needle), 2)
-        
-        XCTAssertEqual(solution.runningSum([1,2,3,4]), [1,3,6,10])
+        haystack = "sadbutsad"
+        needle = "sad"
+        XCTAssertEqual(solution.strStr(haystack, needle), 0)
+
+        haystack = "sadtisazmdasf"
+        needle = "tisaz"
+        XCTAssertEqual(solution.strStr(haystack, needle), 3)
+
+        haystack = "leetcode"
+        needle = "leeto"
+        XCTAssertEqual(solution.strStr(haystack, needle), -1)
+
+        haystack = "hello"
+        needle = "ll"
+        XCTAssertEqual(solution.strStr(haystack, needle), 2)
     }
     
 }
 
 private final class Solution {
-    
-    func runningSum(_ nums: [Int]) -> [Int] {
-        var sum = Array(repeating: 0, count: nums.count)
-        var res = 0
-        
-        for i in 0..<nums.count {
-            res += nums[i]
-            sum[i] = res
-        }
-        
-        return sum
-    }
     
     let RADIX = 26
     let MOD = 1000000033
@@ -68,13 +54,21 @@ private final class Solution {
             let hayHash = hash(String(string))
             
             if hayHash == needleHash {
+                var hasBadMatch = false
                 for i in 0..<string.count {
-                    let idx = haystack.index(haystack.startIndex, offsetBy: i)
-                    if string[idx] != haystack[idx] {
+                    let sidx = haystack.index(string.startIndex, offsetBy: i)
+                    let nidx = needle.index(needle.startIndex, offsetBy: i)
+                    if string[sidx] != needle[nidx] {
+                        hasBadMatch = true
                         break
                     }
                 }
-                return windowStart
+                if hasBadMatch {
+                    windowStart += 1
+                    windowEnd += 1
+                } else {
+                    return windowStart
+                }
             } else {
                 windowStart += 1
                 windowEnd += 1
