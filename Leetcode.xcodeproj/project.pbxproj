@@ -38,6 +38,7 @@
 		62A4392929B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */; };
 		62DA3CB529C6501800DA100C /* 1472.Design.Browser.History.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA3CB429C6501800DA100C /* 1472.Design.Browser.History.Tests.swift */; };
 		62F2FFA129B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */; };
+		62F74C6F29C79082002D73B3 /* 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F74C6E29C79082002D73B3 /* 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		62A4392829B7F340008FA3F7 /* 2187.Minimum.Time.To.Complete.Trips.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2187.Minimum.Time.To.Complete.Trips.Tests.swift; sourceTree = "<group>"; };
 		62DA3CB429C6501800DA100C /* 1472.Design.Browser.History.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1472.Design.Browser.History.Tests.swift; sourceTree = "<group>"; };
 		62F2FFA029B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 875.Koko.Eating.Bananas.Tests.swift; sourceTree = "<group>"; };
+		62F74C6E29C79082002D73B3 /* 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				627F92C929C3C06100E1E942 /* 106.Construct.Binary.Tree.From.Inorder.And.Postorder.Traversal.Tests.swift */,
 				6293E1A929C457E7009E3F57 /* 208.Implement.Trie.Prefix.Tree.Tests.swift */,
 				62DA3CB429C6501800DA100C /* 1472.Design.Browser.History.Tests.swift */,
+				62F74C6E29C79082002D73B3 /* 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				62F2FFA129B8D3B10000CB35 /* 875.Koko.Eating.Bananas.Tests.swift in Sources */,
 				6209F75429AF963700E5CCD5 /* 69.SqrtX.Tests.swift in Sources */,
 				6209F75029AF94B900E5CCD5 /* 33.Search.In.Rotated.Sorted.Array.Tests.swift in Sources */,
+				62F74C6F29C79082002D73B3 /* 211.Design.Add.And.Search.Words.Data.Structure.Tests.swift in Sources */,
 				62377DD529B9DC7F0015E794 /* 142.Linked.List.Cycle.II.Tests.swift in Sources */,
 				6209F75A29AF994600E5CCD5 /* 704.Binary.Search.Tests.swift in Sources */,
 				6209F74A29AF8D5400E5CCD5 /* 2.Add.Two.Numbers.Tests.swift in Sources */,
